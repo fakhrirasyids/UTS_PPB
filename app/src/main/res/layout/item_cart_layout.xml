@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_4sdp">
+
+    <TableRow>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_motor_profile"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/motor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize20Percent" />
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="nama barang"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_satuan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:text="satuan"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_stock"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:text="stock"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_harga"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:text="harga"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_terjual"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:text="terjual"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_sisa"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:text="sisa"
+            android:textColor="@color/black" />
+    </TableRow>
+
+
+</TableLayout>
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:id="@+id/card_view"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_gravity="center"-->
+    <!--    android:layout_marginTop="@dimen/_8sdp"-->
+    <!--    android:paddingBottom="@dimen/_6sdp"-->
+    <!--    card_view:cardCornerRadius="@dimen/_8sdp">-->
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="@dimen/_8sdp">-->
+
+    <!--        <com.google.android.material.imageview.ShapeableImageView-->
+    <!--            android:id="@+id/iv_motor_profile"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/_100sdp"-->
+    <!--            android:padding="@dimen/_8sdp"-->
+    <!--            android:scaleType="centerCrop"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            card_view:layout_constraintStart_toStartOf="parent"-->
+    <!--            card_view:layout_constraintTop_toTopOf="parent"-->
+    <!--            card_view:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize20Percent"-->
+    <!--            tools:src="@tools:sample/avatars" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/nama"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="@dimen/_8sdp"-->
+    <!--            android:text="Nama"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/iv_motor_profile" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/div1"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text=":"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/nama"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/nama" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_nama"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="@dimen/_4sdp"-->
+    <!--            android:text="Bintang"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/nama"-->
+    <!--            app:layout_constraintStart_toEndOf="@+id/div1"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/nama" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/alamat"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Alamat"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/nama" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/div2"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text=":"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/alamat"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/alamat" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_satuan"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="@dimen/_4sdp"-->
+    <!--            android:text="Satuan"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/alamat"-->
+    <!--            app:layout_constraintStart_toEndOf="@+id/div1"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/alamat" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/pekerjaan"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Jumlah Stok"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/alamat" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/div3"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text=":"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/pekerjaan"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/pekerjaan" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_stock"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="@dimen/_4sdp"-->
+    <!--            android:text="Stok"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/pekerjaan"-->
+    <!--            app:layout_constraintStart_toEndOf="@+id/div1"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/pekerjaan" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/beli_unit"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Harga"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/pekerjaan" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/div4"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text=":"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/beli_unit"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/beli_unit" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_harga"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="@dimen/_4sdp"-->
+    <!--            android:text="Rp 10000"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/beli_unit"-->
+    <!--            app:layout_constraintStart_toEndOf="@+id/div1"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/beli_unit" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/harga"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Terjual"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/beli_unit" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/div5"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text=":"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/harga"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/harga" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_terjual"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="@dimen/_4sdp"-->
+    <!--            android:text="terjual"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/harga"-->
+    <!--            app:layout_constraintStart_toEndOf="@+id/div1"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/harga" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/jumlah"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Sisa"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/harga" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/div6"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text=":"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/jumlah"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/jumlah" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_sisa"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="@dimen/_4sdp"-->
+    <!--            android:text="Sisa"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="@dimen/_14ssp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/jumlah"-->
+    <!--            app:layout_constraintStart_toEndOf="@+id/div1"-->
+    <!--            app:layout_constraintTop_toTopOf="@id/jumlah" />-->
+
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <!--</LinearLayout>-->
+    <!--<?xml version="1.0" encoding="utf-8"?>-->

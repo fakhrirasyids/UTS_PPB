@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pasar Motor</string>
+
+    <string-array name="satuan">
+        <item>Unit</item>
+        <item>Buah</item>
+        <item>Biji</item>
+    </string-array>
+</resources>
